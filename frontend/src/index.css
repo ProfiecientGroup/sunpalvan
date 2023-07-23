@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Poppins_Black;
+  src: url("./assets/fonts/Poppins-Black.ttf");
+}
+@font-face {
+  font-family: Poppins_Bold;
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: Poppins_Medium;
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: Poppins_Regular;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Poppins_Black, Poppins_Bold,
+    Poppins_Medium, Poppins_Regular, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
